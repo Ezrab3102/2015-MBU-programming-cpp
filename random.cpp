@@ -15,7 +15,7 @@ int	counter=0; // declare variable as counter for number of guesses
 for(;;)	{
 	counter=counter+1;	// increment guess counter
 
-		std::cout << "try to guss ";//for(;;)
+		std::cout << "guess the number ";//for(;;)
 	std::cin >>ommm;	// read input from user
 		//
 		
@@ -27,10 +27,10 @@ else{std::cout << "too big "<< std::endl;}	// compare input from user to random 
 		//
 
 	}
-	std::cout << "the nuber of guesses "<<counter<<std::endl;
-if(counter>4&&counter<11){std::cout << "go back to shcool "<<std::endl;}
-	else if(counter==4){std::cout << "mathematicaly perfect "<<std::endl;}
-else if (counter>10){std::cout <<"you are really sad"<<std::endl;}
+	std::cout << "It took you guesses "<<counter<<std::endl;
+if(counter>4&&counter<11){std::cout << "Go back to shcool fool "<<std::endl;}
+	else if(counter==4){std::cout << "Your Mathematicaly Perfect!!!!!!!! "<<std::endl;}
+else if (counter>10){std::cout <<"You are just really sad it took you more than 10 guesses to guess a number 1 through 10 "<<std::endl;}
 else{std::cout << "you got lucky "<< std::endl;}
 	// print message with number of guesses
 	//
